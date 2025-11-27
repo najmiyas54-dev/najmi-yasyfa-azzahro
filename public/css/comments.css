@@ -1,0 +1,315 @@
+/* Comments Section Styling */
+.comments-section {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    overflow: hidden;
+}
+
+.comments-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 20px;
+    border: none;
+}
+
+.comments-header h5 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.comments-body {
+    padding: 30px;
+}
+
+/* Comment Form Styling */
+.comment-form {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 30px;
+    border: 1px solid #dee2e6;
+}
+
+.comment-form h6 {
+    color: #495057;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.comment-form .form-control {
+    border-radius: 10px;
+    border: 2px solid #e9ecef;
+    padding: 12px 15px;
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+
+.comment-form .form-control:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 0.2rem rgba(102,126,234,0.25);
+    transform: translateY(-1px);
+}
+
+.comment-form textarea.form-control {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.comment-form label {
+    color: #6c757d;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+}
+
+.btn-comment {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-weight: 600;
+    color: white;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+}
+
+.btn-comment:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(102,126,234,0.4);
+    color: white;
+}
+
+.btn-comment:active {
+    transform: translateY(0);
+}
+
+/* User Info in Form */
+.user-info {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    border: 2px solid #e9ecef;
+    margin-bottom: 20px;
+}
+
+.user-info img {
+    border: 3px solid #667eea;
+}
+
+/* Comments List Styling */
+.comment-item {
+    transition: all 0.3s ease;
+    padding: 20px 0;
+    border-bottom: 1px solid #f1f3f4;
+}
+
+.comment-item:last-child {
+    border-bottom: none;
+}
+
+.comment-item:hover {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 15px;
+    padding: 25px 20px;
+    margin: 10px 0;
+    transform: translateX(5px);
+}
+
+.comment-avatar {
+    border: 3px solid #e9ecef;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.comment-item:hover .comment-avatar {
+    border-color: #667eea;
+    transform: scale(1.05);
+}
+
+.comment-content {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    border: 1px solid #f1f3f4;
+    transition: all 0.3s ease;
+}
+
+.comment-item:hover .comment-content {
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    transform: translateY(-2px);
+}
+
+.comment-meta {
+    font-size: 12px;
+    color: #8e9aaf;
+    font-weight: 500;
+}
+
+.comment-text {
+    line-height: 1.7;
+    margin-bottom: 0;
+    color: #495057;
+    font-size: 14px;
+}
+
+.comment-author {
+    color: #2c3e50;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+/* Role Badges */
+.badge-guru {
+    background: linear-gradient(135deg, #28a745, #20c997);
+    color: white;
+    font-size: 10px;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.badge-admin {
+    background: linear-gradient(135deg, #dc3545, #fd7e14);
+    color: white;
+    font-size: 10px;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.badge-siswa {
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    color: white;
+    font-size: 10px;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* No Comments State */
+.no-comments {
+    text-align: center;
+    padding: 60px 20px;
+    color: #8e9aaf;
+}
+
+.no-comments i {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    opacity: 0.5;
+}
+
+.no-comments h5 {
+    color: #6c757d;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.no-comments p {
+    color: #8e9aaf;
+    font-size: 14px;
+}
+
+/* Load More Button */
+.btn-load-more {
+    background: transparent;
+    border: 2px solid #667eea;
+    color: #667eea;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+}
+
+.btn-load-more:hover {
+    background: #667eea;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102,126,234,0.3);
+}
+
+/* Animation Classes */
+.comment-fade-in {
+    animation: commentFadeIn 0.5s ease-out;
+}
+
+@keyframes commentFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Success Alert Styling */
+.alert-success {
+    background: linear-gradient(135deg, #d4edda, #c3e6cb);
+    border: 1px solid #b8dacc;
+    color: #155724;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .comments-body {
+        padding: 20px;
+    }
+    
+    .comment-form {
+        padding: 20px;
+    }
+    
+    .comment-item {
+        padding: 15px 0;
+    }
+    
+    .comment-item:hover {
+        padding: 20px 15px;
+        margin: 5px 0;
+    }
+    
+    .comment-content {
+        padding: 15px;
+    }
+    
+    .comment-avatar {
+        width: 40px !important;
+        height: 40px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .comment-form .row {
+        margin: 0;
+    }
+    
+    .comment-form .col-md-6 {
+        padding: 0 0 15px 0;
+    }
+    
+    .btn-comment {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

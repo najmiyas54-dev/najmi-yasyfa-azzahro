@@ -1,0 +1,162 @@
+/*==============================================
+          E-Mading SMK Bakti Nusantara 666
+           Core Stylesheet
+===============================================*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+:root {
+    --primary-pink: #ff69b4;
+    --light-pink: #ffb6c1;
+    --primary-blue: #87ceeb;
+    --light-blue: #b0e0e6;
+    --white: #ffffff;
+    --light-gray: #f8f9fa;
+    --dark-gray: #333333;
+}
+
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    line-height: 1.8;
+    overflow-x: hidden;
+    background: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+    margin: 0px;
+    padding: 0px
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    cursor: pointer;
+    color: var(--dark-gray);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+textarea {
+    resize: none;
+}
+
+hr {
+    margin-bottom: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.btn-danger:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+    box-shadow: none;
+}
+
+/*-- scroll to top ---*/
+/*-- scroll to top ---*/
+#return-to-top {
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    display: none; /* Hapus display: block yang duplikat */
+    z-index: 9999;
+    position: fixed;
+    background: linear-gradient(45deg, var(--primary-pink), var(--primary-blue));
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all 0.4s ease;
+}
+#return-to-top i {
+    color: var(--white);
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+#return-to-top:hover {
+    transform: translateY(-5px);
+    background: linear-gradient(45deg, var(--primary-blue), var(--primary-pink));
+}
+
+#return-to-top:hover i {
+    color: var(--white);
+    top: 11px;
+}
+
+::placeholder {
+    font-size: 14px;
+    font-style: italic;
+}
+
+:-moz-placeholder {
+    font-size: 14px;
+    font-style: italic;
+}
+
+:-ms-input-placeholder {
+    font-size: 14px;
+    font-style: italic;
+}
+
+::-moz-placeholder {
+    font-size: 14px;
+    font-style: italic;
+}
+
+::-webkit-input-placeholder {
+    font-size: 14px;
+    font-style: italic;
+}
